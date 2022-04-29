@@ -33,12 +33,12 @@
     "bs58check": "^2.1.2",
     "buffer-equals": "^1.0.3",
     "create-hash": "^1.1.2",
-    "secp256k1": "^3.0.1",
+    "secp256k1": "git+https://github.com/tatdig/secp256k1-node.git",
     "varuint-bitcoin": "^1.0.1"
   },
   "devDependencies": {
     "bigi": "^1.4.1",
-    "bitcoinjs-lib": "^3.2.0",
+    "tdcoinjs-lib": "git+https://github.com/tatdig/tdcoinjs-lib.git",
     "nyc": "^14.1.1",
     "standard": "^12.0.1",
     "tape": "^4.5.1"
