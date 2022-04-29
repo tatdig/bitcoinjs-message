@@ -1,14 +1,14 @@
 {
-  "name": "bitcoinjs-message",
+  "name": "tdcoinjs-message",
   "version": "2.2.0",
-  "description": "bitcoinjs-message",
+  "description": "tdcoinjs-message",
   "keywords": [
-    "bitcoinjs-message",
-    "bitcoin"
+    "tdcoinjs-message",
+    "tdcoin"
   ],
-  "homepage": "https://github.com/bitcoinjs/bitcoinjs-message",
+  "homepage": "https://github.com/tatdig/tdcoinjs-message",
   "bugs": {
-    "url": "https://github.com/bitcoinjs/bitcoinjs-message/issues"
+    "url": "https://github.com/tatdig/tdcoinjs-message/issues"
   },
   "license": "MIT",
   "files": [
@@ -19,7 +19,7 @@
   "types": "./index.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/bitcoinjs/bitcoinjs-message.git"
+    "url": "https://github.com/tatdig/tdcoinjs-message.git"
   },
   "scripts": {
     "coverage": "nyc tape test/*.js",
