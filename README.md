@@ -8,8 +8,8 @@
 ## Examples (Note about Electrum support at the bottom)
 
 ``` javascript
-var bitcoin = require('bitcoinjs-lib') // v4.x.x
-var bitcoinMessage = require('bitcoinjs-message')
+var bitcoin = require('tdcoinjs-lib') // v4.x.x
+var bitcoinMessage = require('tdcoinjs-message')
 ```
 
 > sign(message, privateKey, compressed[, network.messagePrefix, sigOptions])
