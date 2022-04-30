@@ -55,7 +55,7 @@ function decodeSignature (buffer) {
 }
 
 function magicHash (message, messagePrefix) {
-  messagePrefix = messagePrefix || '\u0018Bitcoin Signed Message:\n'
+  messagePrefix = messagePrefix || '\u0018Tdcoin Signed Message:\n'
   if (!Buffer.isBuffer(messagePrefix)) {
     messagePrefix = Buffer.from(messagePrefix, 'utf8')
   }
